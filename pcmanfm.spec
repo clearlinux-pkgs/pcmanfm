@@ -4,10 +4,10 @@
 #
 Name     : pcmanfm
 Version  : 1
-Release  : 1
+Release  : 2
 URL      : https://sourceforge.net/projects/pcmanfm/files/PCManFM%20%2B%20Libfm%20%28tarball%20release%29/PCManFM/pcmanfm-1.3.1.tar.xz/download
 Source0  : https://sourceforge.net/projects/pcmanfm/files/PCManFM%20%2B%20Libfm%20%28tarball%20release%29/PCManFM/pcmanfm-1.3.1.tar.xz/download
-Summary  : No detailed summary available
+Summary  : a file manager replacement for Nautilus, Konqueror and Thunar
 Group    : Development/Tools
 License  : GPL-2.0
 Requires: pcmanfm-bin = %{version}-%{release}
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1579646063
+export SOURCE_DATE_EPOCH=1579721647
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -108,7 +108,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1579646063
+export SOURCE_DATE_EPOCH=1579721647
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/pcmanfm
 cp %{_builddir}/pcmanfm-1.3.1/COPYING %{buildroot}/usr/share/package-licenses/pcmanfm/68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1
