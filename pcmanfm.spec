@@ -4,7 +4,7 @@
 #
 Name     : pcmanfm
 Version  : 1
-Release  : 2
+Release  : 3
 URL      : https://sourceforge.net/projects/pcmanfm/files/PCManFM%20%2B%20Libfm%20%28tarball%20release%29/PCManFM/pcmanfm-1.3.1.tar.xz/download
 Source0  : https://sourceforge.net/projects/pcmanfm/files/PCManFM%20%2B%20Libfm%20%28tarball%20release%29/PCManFM/pcmanfm-1.3.1.tar.xz/download
 Summary  : a file manager replacement for Nautilus, Konqueror and Thunar
